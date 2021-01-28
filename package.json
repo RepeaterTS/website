@@ -1,0 +1,39 @@
+{
+  "name": "repeaterts-website",
+  "version": "0.0.1",
+  "description": "The website that houses documentation for repeaterts",
+  "main": "index.js",
+  "repository": "https://github.com/RepeaterTS/website.git",
+  "author": "Jordan Jones <jordpjones@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fuse.js": "^6.4.1",
+    "konami-code-js": "^0.8.1",
+    "marked": "^1.1.1",
+    "regenerator-runtime": "^0.13.7",
+    "register-service-worker": "^1.7.1",
+    "semver": "^7.3.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "webpack": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
