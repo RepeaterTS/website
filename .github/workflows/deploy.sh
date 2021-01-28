@@ -27,5 +27,5 @@ git pull
 git add --all .
 git config user.name "${GITHUB_ACTOR}"
 git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-git commit -m "Website Build: ${GITHUB_SHA}" || true
+git commit -m "Site build: ${GITHUB_SHA}" || true
 git push origin $TARGET_BRANCH
