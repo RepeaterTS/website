@@ -7,7 +7,7 @@ export default new DocsSource({
   name: 'Main library',
   global: 'Lever',
   repo: 'repeaterts/lever',
-  defaultTag: 'stable',
+  defaultTag: 'master',
   branchFilter: branch => !branchBlacklist.has(branch) && !branch.startsWith('dependabot/'),
   tagFilter: tag => semver.gte(tag, '9.0.0'),
 });
